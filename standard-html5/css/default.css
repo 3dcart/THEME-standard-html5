@@ -1798,7 +1798,7 @@ footer .col3{
 	width:33.3333333%;
 }
 }
-@media only screen and (max-width: 767px) {
+@media(max-width: 768px) {
 
 html {
 	padding: 0 !important;
@@ -1806,6 +1806,17 @@ html {
 body {
     max-width: 100%;
     overflow-x: hidden;
+}
+#mobileMenu,
+#mobileCart{
+	display:block;
+}
+#logo{
+	margin-top:35px;
+}
+.productBlockContainer .product-container {
+    width: 100%;
+    padding: 0;
 }
 .wrapper {
 	width: 100% !important;
