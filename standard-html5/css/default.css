@@ -1118,6 +1118,9 @@ footer .col3 {
 #mailistBox input, #mailistBox span{
 	font-family: 'Open ans', sans-serif;
 }
+
+
+
 .social-icons {
 	float: right;
 	margin: 15px 0 0;
@@ -1798,6 +1801,27 @@ footer .col3{
 	width:33.3333333%;
 }
 }
+
+@media (max-width: 1200px) and (min-width: 768px) {
+		
+	#mailistBox label {
+		width: 210px;
+	}
+	.mailist-box {
+		float: left;
+		padding-right: 15px;
+	}
+	#mailistBox .radio {
+		float: left;
+		min-width: 120px;
+		margin-top: 7px;
+	}
+	#mailistBox .radio > div {
+		display: block;
+	} 
+	
+}
+
 @media only screen and (max-width: 767px) {
 
 html {
