@@ -1358,7 +1358,7 @@ ul#desktopMenu li ul li:hover {
 .slicknav_nav,
 .slicknav_nav ul {
 	list-style: none;
-	overflow: hidden;
+	overflow:scroll !important;
 }
 .slicknav_nav ul {
 	padding: 0;
@@ -1410,7 +1410,7 @@ ul#desktopMenu li ul li:hover {
 	float:left;
 }
 .top-menu{
-	height:43px;
+	height:50px;
 	border-bottom:1px solid #dfdfdf;
 	background-color:white;
 }
@@ -1482,7 +1482,7 @@ header .wrapper{
     border: 1px solid #eae9e6;
 }
 .top-menu li{
-	padding:0 50px;
+	padding:0 5px;
 	margin:0;
 	text-transform:uppercase;
 }
@@ -1801,6 +1801,7 @@ footer .col3{
 	width:33.3333333%;
 }
 }
+<<<<<<< HEAD
 
 @media (max-width: 1200px) and (min-width: 768px) {
 		
@@ -1823,6 +1824,9 @@ footer .col3{
 }
 
 @media only screen and (max-width: 767px) {
+=======
+@media(max-width: 768px) {
+>>>>>>> DEV
 
 html {
 	padding: 0 !important;
@@ -1830,6 +1834,17 @@ html {
 body {
     max-width: 100%;
     overflow-x: hidden;
+}
+#mobileMenu,
+#mobileCart{
+	display:block;
+}
+#logo{
+	margin-top:35px;
+}
+.productBlockContainer .product-container {
+    width: 100%;
+    padding: 0;
 }
 .wrapper {
 	width: 100% !important;

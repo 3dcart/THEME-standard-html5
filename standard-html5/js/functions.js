@@ -220,7 +220,7 @@ jQuery(window).bind('orientationchange', function (event) {
 });
 
 /* Initiates <select> for Sub-Category & Blog menus at a specified width. */
-if (jQuery(window).width() <= 767) {
+if (jQuery(window).width() <= 768) {
 
     jQuery('#subcategoriesBlock .sub-categories-format').each(function () {
         var list = jQuery(this),
