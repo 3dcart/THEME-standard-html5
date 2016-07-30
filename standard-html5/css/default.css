@@ -2055,6 +2055,7 @@ footer .col3 {
 	height: 100%;
 	top: 0;
 	z-index: 1000;
+	overflow:scroll;
 }
 .cbp-spmenu-vertical a {
 	border-bottom: 1px solid #fff;
