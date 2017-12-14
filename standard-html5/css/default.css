@@ -1824,10 +1824,8 @@ footer .col3{
 	
 }
 
-@media only screen and (max-width: 767px) {
-=======
-@media(max-width: 768px) {
->>>>>>> DEV
+@media (max-width: 767px) {
+
 
 html {
 	padding: 0 !important;
